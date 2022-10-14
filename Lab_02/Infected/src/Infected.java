@@ -25,6 +25,6 @@ public class Infected {
     }
 
     public void updateInfectedByRt(double Rt) {
-     /* non so calcolarmi l'indice RT
+        numberOfInfected = (int) (numberOfInfected * Rt);
     }
 }
