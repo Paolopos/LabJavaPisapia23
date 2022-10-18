@@ -3,8 +3,8 @@ files:
 - name: src/Dice.java
   visible: true
   placeholders:
-  - offset: 411
-    length: 96
+  - offset: 613
+    length: 85
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -20,5 +20,7 @@ files:
   encrypted_text: /woJAyY7Uo/vudEWQSGLvDRyoG3cEOEBBI639s0SJKnYvPOexTzG1su8YufMkcyEjpQKd5c87ps3/KsKAz0Z6+/ePb3U+x/DKkYG2f3qkmyb8a4q+F6e3WOiKrSZ9siizQAzmWMDcVwL6hjb8DA/LN+Xf6h7uFsxj+sPrZuNVrIFjqG9NnOHqi43neD0xA8P6e44P8DguiNoTOja/pH94HPUZENSi5xuecH2ydquZVhXnz5me8oMElXcuq0+T2JNJjy2hjqKGG30cCJoGShtZ5HEGCf4xaH6JuZGtO0628YU3WDiUK/Pq1dYlJ/daK9Iqd0BujzruxCPAtDo3LlDoOZ0EdDSTdzzborLUEJol1KO9QsloPvROulWLjZD6iyLWUwC1r21H87M5p+mCgvRPpRxA9uX2/taM76LrythpKPCKkKqPZJX0k2XcwNCUHCTLco5U5C+q5E5LbHOEk0NKu1CuuP2ajOMKASdfYwN6wQD6giv/zFF7qyYg7heLx9gnpCUArGQ6vmZ8S7uhHhWGoqB3+4m8Y395fcC2eeV8oL7r1bC/iisPyMZDJowSa+udaW4xYreVML6W9TASBTS40AygwHlTabX3jb1/CvbVDUOGUCcr4tAVhPKme3NsHEDSl357o6QW+wOuAoOSPF15UaJcdtVUeoR3tkDetV7+NoEo1qVPvcPjyT+mwqY6YUuS4IO+2Ip14ntv5DnD8SeYFpsWBgF++qrlKzToaIQbIwqhBbLK2YinwPR2CfjsHbgcxMZ0sRO4Y7ZOs/JHZAh9a67009UkS/pq9FcXfwVMMjTOPzNP7fy7Mrq8fy8Rggup+FpEoj+ByOHy3RmcjJe6Jgieh0v0s13k5EvGlR2hNl+QkDvKlTjrz0vmfKdn+UG6t9uTHVHe7S1A4tSD+E8BDBkrEmq1iYbZ2KB1DlrMrIH0ZY5ygpR//kQuuwlCW1oK2G/V/NoOzma+sRVvGGATke8rxFipGX0DJpKMp8pbgRVf8lrpHeyxvTI9V+EK4lXmGrRnf/kRpY2m5dSx+bgKqmMO0GSAoIXuzH1ehu0dqkOR6IhGmjHair6n00L99DTxaI6Rg0b4ZRvI8xsWRK4P9FuDkDKu9BWGdthsw1aAV5i6BIS+iHZskEvq5A2+ocRl8+DoJ6YFDB15ERx3xcj8ZxYBF/UQpTm4DiM1/KjHXRGLHFYiKM2vczW6F2hY8PYNtNR6MydSecpvVm/4sLQCpj3+vAFrcF7EKwnBF+fDeqfJdP4LNzdiCJMayyK3ik71M/Wb6gpZ+qfKs1EbAktUPZkC4j17x9zP0+BhOxaSlGe4Ip96Je8WjoqO0vxA+eWATG33B/+/dgJzy2JGoLTr0i5b9/J2HyttQUdbmMj2/Ui/N1mTW1zq9CwaWMd7pnXr08zYRNAr6EIP6L1S5f6yYdEZXop8tGsDbLz3epP8QcYVjiQN5sSD/ZQqnXxmDIeiAN6fwzglPKgLbkNoc4CoKegNR/+3HUYCUXHrdpT6zuw7DGH7nuxonrAI1ZdtMNqGq6pm5w9D2VUODh7dN1Y/LfR9wB8psoN5hFiftKAxogzEU7oZaI7FPIvp/9hgQg6aPevLMFUGzplymh63Noix++Gor/6TQwwHGUL6THQpjDaxhPgb6yCddEb3X8f/0oW0UEAOQiskzMsem3rLNN4YNCGbeRYEkigcDeyZazJrMX0Pa5bc9uNMmtG0l2g0Sta
   learner_created: false
 status: Solved
+feedback:
+  time: Fri, 14 Oct 2022 08:36:13 UTC
 record: -1
 post_submission_on_open: true

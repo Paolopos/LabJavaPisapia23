@@ -21,16 +21,31 @@ public class BankTest {
 
     @Test
     public void depositTest() {
-        /* TODO */
+        Bank b = new Bank();
+        b.addAccount(1000, "Dario");
+        BankAccount newAccount = b.find(1);
+        Assert.assertEquals(1, newAccount.getAccountNumber());
+        b.deposit(1, 1000);
+        Assert.assertEquals(2000, b.getBalance(1), 0);
     }
 
     @Test
     public void withdrawTest() {
-        /* TODO */
+        Bank b = new Bank();
+        b.addAccount(1000, "Dario");
+        BankAccount newAccount = b.find(1);
+        Assert.assertEquals(1, newAccount.getAccountNumber());
+        b.withdraw(1, 200);
+        Assert.assertEquals(800, b.getBalance(1), 0);
     }
 
     @Test
     public void transferTest() {
-        /* TODO */
+        Bank b = new Bank();
+        b.addAccount(1000, "Dario");
+        b.addAccount(1000, "Giulio");
+        b.transfer(1, 2, 200);
+        Assert.assertEquals(800, b.getBalance(1), 0);
+        Assert.assertEquals(1200, b.getBalance(2), 0);
     }
 }

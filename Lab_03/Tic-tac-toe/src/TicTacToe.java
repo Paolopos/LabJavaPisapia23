@@ -32,7 +32,7 @@ public class TicTacToe {
     }
 
     public String getWinner() {
-        /* TODO */
+
     }
 
     public static void main(String[] args) {
