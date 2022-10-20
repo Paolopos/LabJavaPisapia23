@@ -32,14 +32,70 @@ public class MagicSquare {
     }
 
     public void add(int x) {
-        /* TODO */
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (square[i][j] == 0) {
+                    square[i][j] = x;
+                    return;
+                }
+            }
+        }
     }
-
     public boolean isMagic() {
         int magicNumber = 0;
         boolean isMagic = true;
+        for (int j = 0; j < n; j++)
+            magicNumber += square[0][j];
 
-        /* TODO */
+        //Calculate sum of 2nd and 3rd row
+        for (int i = 1; i < n; i++) {
+            int sum_row = 0;
+            for (int j = 0; j < n; j++)
+                sum_row += square[i][j];
+            if (sum_row != magicNumber) {
+                isMagic = false;
+                break;
+            }
+        }
+
+        //Calculate sum of each column
+        if (isMagic) {
+            for (int j = 0; j < n; j++) {
+                int sum_col = 0;
+                for (int i = 0; i < n; i++)
+                    sum_col += square[i][j];
+                if (sum_col != magicNumber) {
+                    isMagic = false;
+                    break;
+                }
+            }
+        }
+
+        //Calculate sum of first diagonal
+        if (isMagic) {
+            int sum_diagonal = 0;
+            int j = 0;
+            for (int i = 0; i < n; i++) {
+                sum_diagonal += square[i][j];
+                j++;
+            }
+            if (sum_diagonal != magicNumber) {
+                isMagic = false;
+            }
+        }
+
+        //Calculate sum of second diagonal
+        if (isMagic) {
+            int sum_diagonal = 0;
+            int j = 0;
+            for (int i = n - 1; i >= 0; i--) {
+                sum_diagonal += square[i][j];
+                j++;
+            }
+            if (sum_diagonal != magicNumber) {
+                isMagic = false;
+            }
+        }
 
         return isMagic;
     }
